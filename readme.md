@@ -8,5 +8,5 @@
 - The paint brush sound effect stays the same, regardless of how far it is from you, The paint brush sound should be at full volume close to your face, but about 50% volume when your arm is outstretched.
 - There is no audio feedback from the UI, Add sound effects for all of the buttons in the UI and a continuous sound effect that plays while the paint brush is in use.
 - There is no way to hide the pedestal completely, Add a toggle UI to the menu next to the pedestal that shows/hides the pedestal object when toggled on/off.
-- There is no way to save your work, Add a “Print” button that creates a miniature version of your 3d creation on a table next to you.
-- There is no way to paint on the back or sides of the object, Add a slider to the UI that rotates the entire pedestal, giving you the ability to paint the back as well.
+- There is no way to save your work, Add a “Print” button that creates a miniature version of your 3d creation on a table next to you. (Niet kunnen vinden hoe je een volledige trail renderer kopieert, dus enkel de stippen van initiatie zijn zichtbaar.)
+- There is no way to paint on the back or sides of the object, Add a slider to the UI that rotates the entire pedestal, giving you the ability to paint the back as well. (Niet kunnen vinden hoe je een trail renderer roteert zonder dat deze verder tekent.)
