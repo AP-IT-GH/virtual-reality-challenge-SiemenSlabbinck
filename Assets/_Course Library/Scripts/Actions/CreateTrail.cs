@@ -7,6 +7,7 @@
 public class CreateTrail : MonoBehaviour
 {
     public GameObject trailPrefab = null;
+    public GameObject pedestal;
 
     private float width = 0.05f;
     private Color color = Color.white;
@@ -34,7 +35,7 @@ public class CreateTrail : MonoBehaviour
     {
         if (currentTrail)
         {
-            currentTrail.transform.parent = null;
+            currentTrail.transform.parent = pedestal.transform;
             currentTrail = null;
         }
     }
